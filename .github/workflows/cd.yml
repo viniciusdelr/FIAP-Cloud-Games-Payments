@@ -27,6 +27,6 @@ jobs:
           context: ./FCG
           file: ./FCG/src/FCG.API/Dockerfile
           push: true
-          tags: viniciusdelr/payments-serivce:1.0
+          tags: viniciusdelr/payments-service:1.0
           build-args: |
             NEW_RELIC_LICENSE_KEY=${{ secrets.NEW_RELIC_LICENSE_KEY }}
