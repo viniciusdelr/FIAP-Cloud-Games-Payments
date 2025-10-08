@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FCG.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace FCG.Infrastructure.Data
 {
@@ -8,7 +9,6 @@ namespace FCG.Infrastructure.Data
         {
             
         }
-
-
+        public DbSet<Payments> Payments { get; set; }
     }
 }

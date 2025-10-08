@@ -1,9 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\",
+  "WorkspaceRootPath": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|c:\\fiap\\fiap-cloud-games\\fiap-cloud-games-payments\\fcg\\src\\fcg.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|d:\\dev fiap\\fiap-cloud-games-payments\\fcg\\src\\fcg.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|solutionrelative:src\\fcg.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC140B0-EA19-4352-9D7C-32690CCDD0A4}|src\\FCG.Application\\FCG.Application.csproj|d:\\dev fiap\\fiap-cloud-games-payments\\fcg\\src\\fcg.application\\dtos\\paymentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC140B0-EA19-4352-9D7C-32690CCDD0A4}|src\\FCG.Application\\FCG.Application.csproj|solutionrelative:src\\fcg.application\\dtos\\paymentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7627FEC-4CB9-4D06-91C2-C720FA4A23FC}|src\\FCG.Domain\\FCG.Domain.csproj|d:\\dev fiap\\fiap-cloud-games-payments\\fcg\\src\\fcg.domain\\entities\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7627FEC-4CB9-4D06-91C2-C720FA4A23FC}|src\\FCG.Domain\\FCG.Domain.csproj|solutionrelative:src\\fcg.domain\\entities\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DAD1F6-C7E3-48A8-87B3-567D14CA5D03}|src\\FCG.Infrastructure\\FCG.Infrastructure.csproj|d:\\dev fiap\\fiap-cloud-games-payments\\fcg\\src\\fcg.infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DAD1F6-C7E3-48A8-87B3-567D14CA5D03}|src\\FCG.Infrastructure\\FCG.Infrastructure.csproj|solutionrelative:src\\fcg.infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|d:\\dev fiap\\fiap-cloud-games-payments\\fcg\\src\\fcg.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|solutionrelative:src\\fcg.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -14,19 +30,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Infrastructure\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "src\\FCG.Infrastructure\\Data\\DataContext.cs",
+              "ToolTip": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Infrastructure\\Data\\DataContext.cs",
+              "RelativeToolTip": "src\\FCG.Infrastructure\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:07:24.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Domain\\Entities\\Payments.cs",
+              "RelativeDocumentMoniker": "src\\FCG.Domain\\Entities\\Payments.cs",
+              "ToolTip": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Domain\\Entities\\Payments.cs",
+              "RelativeToolTip": "src\\FCG.Domain\\Entities\\Payments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:06:21.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentsDto.cs",
+              "DocumentMoniker": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\DTOs\\PaymentsDto.cs",
+              "RelativeDocumentMoniker": "src\\FCG.Application\\DTOs\\PaymentsDto.cs",
+              "ToolTip": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\DTOs\\PaymentsDto.cs",
+              "RelativeToolTip": "src\\FCG.Application\\DTOs\\PaymentsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:05:56.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\FCG.API\\Dockerfile",
+              "ToolTip": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Dockerfile",
+              "RelativeToolTip": "src\\FCG.API\\Dockerfile",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-02T03:03:24.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\FCG.API\\Dockerfile",
-              "ToolTip": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Dockerfile",
-              "RelativeToolTip": "src\\FCG.API\\Dockerfile",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-02T03:03:24.192Z",
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "src\\FCG.API\\Controllers\\PaymentsController.cs",
+              "ToolTip": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "src\\FCG.API\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T02:05:28.224Z",
               "EditorCaption": ""
             }
           ]

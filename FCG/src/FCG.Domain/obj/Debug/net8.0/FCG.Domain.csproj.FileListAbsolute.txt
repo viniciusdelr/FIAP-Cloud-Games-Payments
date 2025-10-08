@@ -13,3 +13,18 @@ C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj
 C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.pdb
 C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.genruntimeconfig.cache
 C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\ref\FCG.Domain.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.deps.json
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.runtimeconfig.json
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.pdb
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.csproj.AssemblyReference.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.AssemblyInfoInputs.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.AssemblyInfo.cs
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.csproj.CoreCompileInputs.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.sourcelink.json
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\refint\FCG.Domain.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.pdb
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.genruntimeconfig.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Domain\obj\Debug\net8.0\ref\FCG.Domain.dll

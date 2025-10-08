@@ -5182,26 +5182,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vinícius\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\FCG.Application.csproj",
+      "projectUniqueName": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\FCG.Application.csproj",
       "projectName": "FCG.Application",
-      "projectPath": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\FCG.Application.csproj",
-      "packagesPath": "C:\\Users\\Vinícius\\.nuget\\packages\\",
-      "outputPath": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\obj\\",
+      "projectPath": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\FCG.Application.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Vinícius\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5209,7 +5206,6 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -5217,8 +5213,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Domain\\FCG.Domain.csproj": {
-              "projectPath": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Domain\\FCG.Domain.csproj"
+            "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Domain\\FCG.Domain.csproj": {
+              "projectPath": "D:\\Dev FIAP\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.Domain\\FCG.Domain.csproj"
             }
           }
         }
@@ -5233,7 +5229,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -5284,7 +5280,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

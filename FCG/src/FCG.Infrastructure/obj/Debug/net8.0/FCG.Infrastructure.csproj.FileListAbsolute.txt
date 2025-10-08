@@ -18,3 +18,23 @@ C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Infrastruc
 C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.pdb
 C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.genruntimeconfig.cache
 C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\ref\FCG.Infrastructure.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Infrastructure.deps.json
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Infrastructure.runtimeconfig.json
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Infrastructure.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Infrastructure.pdb
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Application.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Domain.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Domain.pdb
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\bin\Debug\net8.0\FCG.Application.pdb
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.csproj.AssemblyReference.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.AssemblyInfoInputs.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.AssemblyInfo.cs
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.sourcelink.json
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infr.C348193C.Up2Date
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\refint\FCG.Infrastructure.dll
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.pdb
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\FCG.Infrastructure.genruntimeconfig.cache
+D:\Dev FIAP\FIAP-Cloud-Games-Payments\FCG\src\FCG.Infrastructure\obj\Debug\net8.0\ref\FCG.Infrastructure.dll

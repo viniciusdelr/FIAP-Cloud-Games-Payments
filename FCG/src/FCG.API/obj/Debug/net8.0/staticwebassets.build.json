@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "LUPoy+JK3gAH6Cpq7Km2coYiSzfsBCjh08umz5hAnQQ=",
+  "Hash": "UEBWq6B56iHxYTezUBteOm0kOQ/xto5ipdz63ej+4Fs=",
   "Source": "FCG.API",
   "BasePath": "_content/FCG.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
