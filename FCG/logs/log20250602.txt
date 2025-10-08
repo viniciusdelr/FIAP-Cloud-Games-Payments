@@ -1,0 +1,111 @@
+2025-06-02 20:15:06.323 -03:00 [INF] User profile is available. Using 'C:\Users\Vinishow\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 20:15:06.784 -03:00 [INF] Now listening on: https://localhost:7072
+2025-06-02 20:15:06.786 -03:00 [INF] Now listening on: http://localhost:5065
+2025-06-02 20:15:06.790 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 20:15:06.794 -03:00 [INF] Hosting environment: Development
+2025-06-02 20:15:06.795 -03:00 [INF] Content root path: C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG
+2025-06-02 20:15:08.049 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - null null
+2025-06-02 20:15:09.261 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - 200 null text/html;charset=utf-8 1224.6891ms
+2025-06-02 20:15:09.302 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-02 20:15:09.302 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2025-06-02 20:15:09.467 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 164.142ms
+2025-06-02 20:15:10.067 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 765.1449ms
+2025-06-02 20:15:10.222 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - null null
+2025-06-02 20:15:10.735 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 513.374ms
+2025-06-02 20:29:56.476 -03:00 [INF] User profile is available. Using 'C:\Users\Vinishow\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 20:29:56.866 -03:00 [INF] Now listening on: https://localhost:7072
+2025-06-02 20:29:56.867 -03:00 [INF] Now listening on: http://localhost:5065
+2025-06-02 20:29:56.871 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 20:29:56.872 -03:00 [INF] Hosting environment: Development
+2025-06-02 20:29:56.873 -03:00 [INF] Content root path: C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG
+2025-06-02 20:29:57.650 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger - null null
+2025-06-02 20:29:57.882 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger - 301 0 null 241.2417ms
+2025-06-02 20:29:57.888 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - null null
+2025-06-02 20:29:58.168 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - 200 null text/html;charset=utf-8 280.1239ms
+2025-06-02 20:29:58.174 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/swagger-ui.css - null null
+2025-06-02 20:29:58.174 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/swagger-ui-bundle.js - null null
+2025-06-02 20:29:58.175 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-02 20:29:58.176 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-02 20:29:58.220 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2025-06-02 20:29:58.286 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 110.0423ms
+2025-06-02 20:29:58.316 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-02 20:29:58.317 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-02 20:29:58.321 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/swagger-ui.css - 200 143943 text/css 147.2223ms
+2025-06-02 20:29:58.334 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 158.2799ms
+2025-06-02 20:29:58.365 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-02 20:29:58.366 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 191.8151ms
+2025-06-02 20:29:58.515 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 295.8662ms
+2025-06-02 20:29:58.730 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - null null
+2025-06-02 20:29:59.164 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 433.9779ms
+2025-06-02 20:36:51.482 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/register - null 0
+2025-06-02 20:36:51.495 -03:00 [INF] Requisição iniciada: POST /register de IP ::1
+2025-06-02 20:36:51.568 -03:00 [INF] Executing endpoint 'FCG.Controllers.AccountController.Register (FCG)'
+2025-06-02 20:36:51.594 -03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Register(FCG.DTOs.AccountDto) on controller FCG.Controllers.AccountController (FCG).
+2025-06-02 20:36:53.060 -03:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST(0 AS bit)
+2025-06-02 20:36:53.110 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CAST(0 AS bit)
+2025-06-02 20:36:53.196 -03:00 [INF] Executed action FCG.Controllers.AccountController.Register (FCG) in 1595.8091ms
+2025-06-02 20:36:53.198 -03:00 [INF] Executed endpoint 'FCG.Controllers.AccountController.Register (FCG)'
+2025-06-02 20:36:53.287 -03:00 [ERR] Erro inesperado. Método: POST, Rota: /register, IP: ::1
+System.ArgumentNullException: Value cannot be null. (Parameter 'input')
+   at System.Text.RegularExpressions.ThrowHelper.ThrowArgumentNullException(ExceptionArgument arg)
+   at System.Text.RegularExpressions.Regex.IsMatch(String input)
+   at FCG.Controllers.AccountController.Register(AccountDto dto) in C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\Controllers\AccountController.cs:line 28
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at FCG.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\Middlewares\ExceptionMiddleware.cs:line 28
+2025-06-02 20:36:53.334 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/register - 500 null application/json 1852.1424ms
+2025-06-02 21:13:21.578 -03:00 [INF] User profile is available. Using 'C:\Users\Vinishow\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 21:13:21.849 -03:00 [INF] Now listening on: https://localhost:7072
+2025-06-02 21:13:21.850 -03:00 [INF] Now listening on: http://localhost:5065
+2025-06-02 21:13:21.853 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 21:13:21.854 -03:00 [INF] Hosting environment: Development
+2025-06-02 21:13:21.855 -03:00 [INF] Content root path: C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG
+2025-06-02 21:13:22.196 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - null null
+2025-06-02 21:13:22.614 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2025-06-02 21:13:22.615 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-02 21:13:22.618 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - 200 null text/html;charset=utf-8 436.3598ms
+2025-06-02 21:13:22.700 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 85.015ms
+2025-06-02 21:13:22.760 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 146.4149ms
+2025-06-02 21:13:22.905 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - null null
+2025-06-02 21:13:23.161 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 256.1028ms
+2025-06-02 21:54:39.628 -03:00 [INF] User profile is available. Using 'C:\Users\Vinishow\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 21:54:39.895 -03:00 [INF] Now listening on: https://localhost:7072
+2025-06-02 21:54:39.897 -03:00 [INF] Now listening on: http://localhost:5065
+2025-06-02 21:54:39.899 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 21:54:39.900 -03:00 [INF] Hosting environment: Development
+2025-06-02 21:54:39.901 -03:00 [INF] Content root path: C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG
+2025-06-02 21:54:40.720 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - null null
+2025-06-02 21:54:40.952 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - 200 null text/html;charset=utf-8 246.1522ms
+2025-06-02 21:54:40.961 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-02 21:54:40.961 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2025-06-02 21:54:40.970 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 9.3002ms
+2025-06-02 21:54:41.018 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.1938ms
+2025-06-02 21:54:41.112 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - null null
+2025-06-02 21:54:41.353 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 241.4696ms
+2025-06-02 22:53:44.441 -03:00 [INF] User profile is available. Using 'C:\Users\Vinishow\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-02 22:53:44.671 -03:00 [INF] Now listening on: https://localhost:7072
+2025-06-02 22:53:44.672 -03:00 [INF] Now listening on: http://localhost:5065
+2025-06-02 22:53:44.675 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-02 22:53:44.676 -03:00 [INF] Hosting environment: Development
+2025-06-02 22:53:44.676 -03:00 [INF] Content root path: C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG
+2025-06-02 22:53:45.127 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - null null
+2025-06-02 22:53:45.612 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - 200 null text/html;charset=utf-8 498.2476ms
+2025-06-02 22:53:45.649 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-02 22:53:45.660 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2025-06-02 22:53:45.714 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 65.1474ms
+2025-06-02 22:53:45.833 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 173.6057ms
+2025-06-02 22:53:45.890 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - null null
+2025-06-02 22:53:46.725 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 834.9511ms

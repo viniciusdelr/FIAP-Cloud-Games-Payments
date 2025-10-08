@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|c:\\fiap\\fiap-cloud-games\\fiap-cloud-games-payments\\fcg\\src\\fcg.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|solutionrelative:src\\fcg.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|c:\\fiap\\fiap-cloud-games\\fiap-cloud-games-payments\\fcg\\src\\fcg.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|solutionrelative:src\\fcg.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|c:\\fiap\\fiap-cloud-games\\fiap-cloud-games-payments\\fcg\\src\\fcg.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|solutionrelative:src\\fcg.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|c:\\fiap\\fiap-cloud-games\\fiap-cloud-games-payments\\fcg\\src\\fcg.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C6A93BA-C2C2-41FC-A2CD-378D8602F2CD}|src\\FCG.API\\FCG.API.csproj|solutionrelative:src\\fcg.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\FCG.API\\Dockerfile",
+              "ToolTip": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Dockerfile",
+              "RelativeToolTip": "src\\FCG.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-02T03:03:24.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\FCG.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\FCG.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T02:42:35.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\FCG.API\\Program.cs",
+              "ToolTip": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\Program.cs",
+              "RelativeToolTip": "src\\FCG.API\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:39:46.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\FCG.API\\appsettings.json",
+              "ToolTip": "C:\\FIAP\\FIAP-Cloud-Games\\FIAP-Cloud-Games-Payments\\FCG\\src\\FCG.API\\appsettings.json",
+              "RelativeToolTip": "src\\FCG.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T02:21:21.224Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

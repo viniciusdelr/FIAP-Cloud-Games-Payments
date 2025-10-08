@@ -1,0 +1,15 @@
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.deps.json
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.runtimeconfig.json
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.dll
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\bin\Debug\net8.0\FCG.Domain.pdb
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.csproj.AssemblyReference.cache
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.AssemblyInfoInputs.cache
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.AssemblyInfo.cs
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.csproj.CoreCompileInputs.cache
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.sourcelink.json
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.dll
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\refint\FCG.Domain.dll
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.pdb
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\FCG.Domain.genruntimeconfig.cache
+C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\src\FCG.Domain\obj\Debug\net8.0\ref\FCG.Domain.dll

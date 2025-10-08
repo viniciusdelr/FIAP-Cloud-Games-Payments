@@ -1,0 +1,29 @@
+name: CI - Testes Unitários
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    name: Rodar testes unitários
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Instalar SDK do .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x' # ou a versão usada no seu projeto
+
+      - name: Restaurar pacotes
+        run: dotnet restore
+
+      - name: Compilar solução
+        run: dotnet build --no-restore
+
+      - name: Executar testes
+        run: dotnet test --no-build --verbosity normal

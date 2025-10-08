@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "FCG": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56805;http://localhost:56806"
+    }
+  }
+}

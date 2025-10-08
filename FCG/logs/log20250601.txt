@@ -1,0 +1,55 @@
+2025-06-01 23:27:35.627 -03:00 [INF] User profile is available. Using 'C:\Users\Vinishow\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 23:27:36.049 -03:00 [INF] Now listening on: https://localhost:7072
+2025-06-01 23:27:36.051 -03:00 [INF] Now listening on: http://localhost:5065
+2025-06-01 23:27:36.055 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 23:27:36.057 -03:00 [INF] Hosting environment: Development
+2025-06-01 23:27:36.058 -03:00 [INF] Content root path: C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG
+2025-06-01 23:27:36.750 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - null null
+2025-06-01 23:27:37.277 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - 200 null text/html;charset=utf-8 549.6384ms
+2025-06-01 23:27:37.309 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2025-06-01 23:27:37.308 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 23:27:37.331 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 22.1873ms
+2025-06-01 23:27:37.377 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.1899ms
+2025-06-01 23:27:37.445 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - null null
+2025-06-01 23:27:37.712 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 266.9131ms
+2025-06-01 23:29:25.903 -03:00 [INF] User profile is available. Using 'C:\Users\Vinishow\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-01 23:29:26.162 -03:00 [INF] Now listening on: https://localhost:7072
+2025-06-01 23:29:26.164 -03:00 [INF] Now listening on: http://localhost:5065
+2025-06-01 23:29:26.167 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-01 23:29:26.168 -03:00 [INF] Hosting environment: Development
+2025-06-01 23:29:26.168 -03:00 [INF] Content root path: C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG
+2025-06-01 23:29:26.979 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/index.html - null null
+2025-06-01 23:29:27.247 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/index.html - 200 null text/html;charset=utf-8 277.5955ms
+2025-06-01 23:29:27.266 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-01 23:29:27.266 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2025-06-01 23:29:27.293 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 26.517ms
+2025-06-01 23:29:27.399 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.7514ms
+2025-06-01 23:29:27.475 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - null null
+2025-06-01 23:29:27.643 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 167.6783ms
+2025-06-01 23:29:31.455 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/test-error - null null
+2025-06-01 23:29:31.463 -03:00 [INF] Requisição iniciada: GET /test-error de IP ::1
+2025-06-01 23:29:31.522 -03:00 [INF] Executing endpoint 'FCG.Controllers.AccountController.TestError (FCG)'
+2025-06-01 23:29:31.540 -03:00 [INF] Route matched with {action = "TestError", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller FCG.Controllers.AccountController (FCG).
+2025-06-01 23:29:34.122 -03:00 [INF] Executed action FCG.Controllers.AccountController.TestError (FCG) in 2575.3566ms
+2025-06-01 23:29:34.124 -03:00 [INF] Executed endpoint 'FCG.Controllers.AccountController.TestError (FCG)'
+2025-06-01 23:29:34.141 -03:00 [ERR] Erro inesperado. Método: GET, Rota: /test-error, IP: ::1
+System.Exception: Erro simulado para testar logs e middleware.
+   at FCG.Controllers.AccountController.TestError() in C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\Controllers\AccountController.cs:line 21
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at FCG.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Vinicius_Dev\FIAP-Cloud-Games\FIAP-Cloud-Games-POSTECH\FCG\Middlewares\ExceptionMiddleware.cs:line 28
+2025-06-01 23:29:34.174 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/test-error - 500 null application/json 2718.8133ms

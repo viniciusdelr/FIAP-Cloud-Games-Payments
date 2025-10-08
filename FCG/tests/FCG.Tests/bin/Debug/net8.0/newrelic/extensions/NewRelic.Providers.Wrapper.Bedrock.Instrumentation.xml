@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2020 New Relic Corporation. All rights reserved.
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<extension xmlns="urn:newrelic-extension">
+  <instrumentation>
+
+    <!-- Llama 2 -->
+    <tracerFactory name="BedrockInvokeModelAsync">
+      <match assemblyName="AWSSDK.BedrockRuntime" className="Amazon.BedrockRuntime.AmazonBedrockRuntimeClient">
+        <exactMethodMatcher methodName="InvokeModelAsync" />
+      </match>
+    </tracerFactory>
+
+    <tracerFactory name="BedrockConverseAsync">
+      <!--
+      public virtual Task<ConverseResponse> ConverseAsync(ConverseRequest request, System.Threading.CancellationToken cancellationToken = default(CancellationToken))
+      -->
+      <match assemblyName="AWSSDK.BedrockRuntime" className="Amazon.BedrockRuntime.AmazonBedrockRuntimeClient">
+        <exactMethodMatcher methodName="ConverseAsync" />
+       </match>
+    </tracerFactory>
+  </instrumentation>
+</extension>
