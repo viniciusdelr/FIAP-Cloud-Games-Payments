@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Build, Push and Deploy to Azure
 
 on:
   workflow_dispatch:
@@ -7,8 +7,8 @@ on:
       - main
 
 jobs:
-  build-and-push:
-    name: Build and Push Docker Image
+  build-push-deploy: 
+    name: Build Docker and Deploy to Azure
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +27,26 @@ jobs:
           context: ./FCG
           file: ./FCG/src/FCG.API/Dockerfile
           push: true
-          tags: viniciusdelr/payments-service:1.0
+          tags: viniciusdelr/payments-service:latest
           build-args: |
             NEW_RELIC_LICENSE_KEY=${{ secrets.NEW_RELIC_LICENSE_KEY }}
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Set AKS Context
+        uses: azure/aks-set-context@v3
+        with:
+          resource-group: fiap-rg
+          cluster-name: aks-fiap-cluster 
+
+      - name: Deploy to Kubernetes
+        uses: azure/k8s-deploy@v4
+        with:
+          action: deploy
+          manifests: |
+            k8s/deploy-api.yml
+          images: |
+            viniciusdelr/payments-service:latest
