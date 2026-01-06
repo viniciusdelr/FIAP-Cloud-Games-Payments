@@ -27,7 +27,7 @@ kind: Service
 metadata:
   name: servico-api-payments
 spec:
-  type: LoadBalancer 
+  type: ClusterIP 
   selector:
     app: api-payments
   ports:
