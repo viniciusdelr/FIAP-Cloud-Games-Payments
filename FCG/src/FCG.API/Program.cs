@@ -8,6 +8,7 @@ using System.Text;
 using FCG.Middlewares;
 using Serilog;
 using System;
+using Microsoft.OpenApi.Models;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
