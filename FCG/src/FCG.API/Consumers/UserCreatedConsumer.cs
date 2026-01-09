@@ -1,4 +1,4 @@
-﻿using FCG.API.Shared.Events;
+﻿using FCG.API.Events;
 using FCG.Domain.Entities;
 using FCG.Infrastructure.Data;
 using MassTransit;

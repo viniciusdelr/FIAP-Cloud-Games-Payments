@@ -1,4 +1,4 @@
-﻿namespace FCG.API.Shared.Events
+﻿namespace FCG.API.Events
 {
     public class UserCreatedEvent
     {
@@ -7,4 +7,3 @@
         public string Email { get; set; }
     }
 }
-    
