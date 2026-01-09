@@ -18,6 +18,7 @@ namespace FCG.Controllers
         }
 
         [HttpPost("Recharge")]
+        [Authorize]//transformar em admin no futuro
         public async Task<IActionResult> Recharge([FromBody] RechargeDto dto)
         {
             var wallet = await _context.Wallets.FirstOrDefaultAsync(w => w.UserId == dto.UserId);
@@ -47,6 +48,8 @@ namespace FCG.Controllers
         }
 
         [HttpGet("GetWallet/{userId}")]
+        [Authorize]
+
         public async Task<IActionResult> GetBalance(int userId)
         {
             var wallet = await _context.Wallets.FirstOrDefaultAsync(w => w.UserId == userId);
