@@ -1,4 +1,4 @@
-﻿namespace FCG.API.Shared.Events
+﻿namespace FCG.API.Events
 {
     public record GamePurchased
     {
