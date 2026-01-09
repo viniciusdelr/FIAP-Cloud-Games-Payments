@@ -1,11 +1,10 @@
 ﻿using FCG.API.Events;
-using FCG.API.Shared.Events;
 using FCG.Domain.Entities;
 using FCG.Infrastructure.Data;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
-namespace Payments.API.Consumers
+namespace FCG.API.Consumers
 {
     public class GamePurchasedConsumer : IConsumer<GamePurchased>
     {

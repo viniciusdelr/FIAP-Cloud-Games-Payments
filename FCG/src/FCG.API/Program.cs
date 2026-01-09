@@ -147,7 +147,7 @@ builder.Services.AddMassTransit(x =>
 {
     // 1. Registre TODOS os seus consumidores aqui em cima
     x.AddConsumer<UserCreatedConsumer>();
-    //x.AddConsumer<GamePurchasedConsumer>();
+    x.AddConsumer<GamePurchasedConsumer>();
 
     x.UsingAzureServiceBus((context, cfg) =>
     {
