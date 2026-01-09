@@ -22,17 +22,25 @@ namespace FCG.API.Consumers
             var message = context.Message;
             _logger.LogInformation($"[MassTransit] Recebido usuário: {message.UserId}");
 
-            // O MassTransit gerencia o escopo, mas para garantir acesso ao banco Scoped:
             using (var scope = _serviceProvider.CreateScope())
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<DataContext>();
 
-                // Lógica de criar a Wallet (igual fizemos antes)
-                var existingWallet = await dbContext.Wallets.FirstOrDefaultAsync(w => w.Id == message.UserId);
+                var existingWallet = await dbContext.Wallets.FirstOrDefaultAsync(w => w.UserId == message.UserId);
+
                 if (existingWallet == null)
                 {
-                    dbContext.Wallets.Add(new Wallet { Id = message.UserId, Funds = 0, Username = message.Username });
+                    var newWallet = new Wallet
+                    {
+                        UserId = message.UserId, 
+                        Username = message.Username ?? "User",
+                        Funds = 0,
+                        LastRecharge = DateTime.UtcNow
+                    };
+
+                    dbContext.Wallets.Add(newWallet);
                     await dbContext.SaveChangesAsync();
+                    _logger.LogInformation($"Carteira criada para User {message.UserId}");
                 }
             }
         }
