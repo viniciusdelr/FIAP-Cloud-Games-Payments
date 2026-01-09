@@ -152,7 +152,7 @@ builder.Services.AddMassTransit(x =>
     x.UsingAzureServiceBus((context, cfg) =>
     {
         // Use apenas uma string de conexão (garanta que o nome no appsettings seja igual)
-        cfg.Host(builder.Configuration.GetConnectionString("AzureServiceBus"));
+        cfg.Host(builder.Configuration.GetConnectionString("ServiceBusConnection"));
 
         // 2. Configuração Automática (Recomendado)
         // O ConfigureEndpoints cria as filas automaticamente para todos os consumers registrados acima
