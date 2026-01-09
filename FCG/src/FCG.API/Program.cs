@@ -9,6 +9,8 @@ using FCG.Middlewares;
 using Serilog;
 using System;
 using Microsoft.OpenApi.Models;
+using MassTransit;
+using FCG.API.Consumers;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Information()
@@ -114,14 +116,24 @@ builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-//builder.Services.AddDbContext<DataContext>(options =>
-//    options.UseSqlServer(
-//        builder.Configuration.GetConnectionString("DefaultConnection"),
-//        sqlOptions => sqlOptions.MigrationsAssembly("FCG.Infrastructure")
-//    )
-//);
 
 builder.WebHost.UseUrls("http://0.0.0.0:80");
+
+builder.Services.AddMassTransit(x =>
+{
+    // 1. Registra o consumidor
+    x.AddConsumer<UserCreatedConsumer>();
+
+    x.UsingAzureServiceBus((context, cfg) =>
+    {
+        cfg.Host(builder.Configuration.GetConnectionString("ServiceBusConnection"));
+
+        cfg.ReceiveEndpoint("user-created-queue", e =>
+        {
+            e.ConfigureConsumer<UserCreatedConsumer>(context);
+        });
+    });
+});
 
 var app = builder.Build();
 

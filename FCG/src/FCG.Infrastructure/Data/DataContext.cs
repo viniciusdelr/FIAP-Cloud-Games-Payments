@@ -10,5 +10,6 @@ namespace FCG.Infrastructure.Data
             
         }
         public DbSet<Payments> Payments { get; set; }
+        public DbSet<Wallet> Wallets { get; set; }
     }
 }

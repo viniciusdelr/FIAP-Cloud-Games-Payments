@@ -1,13 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FCG.Domain.Entities
 {
-    internal class Wallet
+    public class Wallet
     {
         public int Id { get; set; }
         public required string Username { get; set; }
