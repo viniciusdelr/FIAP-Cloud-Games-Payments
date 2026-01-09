@@ -2,7 +2,7 @@
 {
     public record GamePurchased
     {
-        public Guid Id { get; init; }
+        public Guid CorrelationId { get; init; }
         public int UserId { get; init; }
         public decimal Price { get; init; }
     }

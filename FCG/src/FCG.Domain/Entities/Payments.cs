@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace FCG.Domain.Entities
 {
     public class Payments
     {
+        [Key]
         public int Id { get; set; }
         public required string FirstName { get; set; }
         public required string GameTitle { get; set; } = string.Empty;

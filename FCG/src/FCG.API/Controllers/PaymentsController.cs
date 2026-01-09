@@ -16,26 +16,26 @@ namespace FCG.Controllers
             _context = context;
         }
 
-        [HttpPost("PurchaseVideoGame")]
-        [Authorize(Roles = "Admin")]
-        public async Task<ActionResult> PostVideoGames([FromBody] PaymentsDto dtoPayments)
-        {
+        //[HttpPost("PurchaseVideoGame")]
+        //[Authorize(Roles = "Admin")]
+        //public async Task<ActionResult> PostVideoGames([FromBody] PaymentsDto dtoPayments)
+        //{
 
-            var Payments = new Payments
-            {
-                FirstName = dtoPayments.FirstName,
-                GameTitle = dtoPayments.GameTitle,
-                IdGame = dtoPayments.IdGame,
-                Price = dtoPayments.Price,
-                DiscountPerc = dtoPayments.DiscountPerc,
-                DiscountPrice = dtoPayments.Price - (dtoPayments.Price * dtoPayments.DiscountPerc / 100)
-            };
+        //    var Payments = new Payments
+        //    {
+        //        FirstName = dtoPayments.FirstName,
+        //        GameTitle = dtoPayments.GameTitle,
+        //        IdGame = dtoPayments.IdGame,
+        //        Price = dtoPayments.Price,
+        //        DiscountPerc = dtoPayments.DiscountPerc,
+        //        DiscountPrice = dtoPayments.Price - (dtoPayments.Price * dtoPayments.DiscountPerc / 100)
+        //    };
 
-            _context.Payments.Add(Payments);
-            await _context.SaveChangesAsync();
+        //    _context.Payments.Add(Payments);
+        //    await _context.SaveChangesAsync();
 
-            return Ok(new { mensagem = "Compra Realizada!" });
-        }
+        //    return Ok(new { mensagem = "Compra Realizada!" });
+        //}
 
         
         [HttpGet("SearchUserPurchases")]
