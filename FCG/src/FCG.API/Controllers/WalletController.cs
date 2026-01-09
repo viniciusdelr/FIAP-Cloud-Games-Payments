@@ -11,29 +11,48 @@ namespace FCG.Controllers
     public class WalletController : Controller
     {
         private readonly DataContext _context;
+        public record RechargeDto(int UserId, decimal Amount);
         public WalletController(DataContext context)
         {
             _context = context;
         }
 
-        [HttpPost("RechargeWallet")]
-        public async Task<ActionResult> RechargeWallet([FromBody] WalletDto dtoWallet)
+        [HttpPost("Recharge")]
+        public async Task<IActionResult> Recharge([FromBody] RechargeDto dto)
         {
+            var wallet = await _context.Wallets.FirstOrDefaultAsync(w => w.UserId == dto.UserId);
 
-            //var Payments = new Payments
-            //{
-            //    FirstName = dtoPayments.FirstName,
-            //    GameTitle = dtoPayments.GameTitle,
-            //    IdGame = dtoPayments.IdGame,
-            //    Price = dtoPayments.Price,
-            //    DiscountPerc = dtoPayments.DiscountPerc,
-            //    DiscountPrice = dtoPayments.Price - (dtoPayments.Price * dtoPayments.DiscountPerc / 100)
-            //};
+            if (wallet == null)
+            {
+                wallet = new Wallet
+                {
+                    UserId = dto.UserId,
+                    Username = "Usuario " + dto.UserId,
+                    Funds = 0,
+                    LastRecharge = DateTime.UtcNow
+                };
+                _context.Wallets.Add(wallet);
+            }
 
-            //_context.Payments.Add(Payments);
-            //await _context.SaveChangesAsync();
+            wallet.Funds += dto.Amount;
+            wallet.LastRecharge = DateTime.UtcNow;
 
-            return Ok(new { mensagem = "Compra Realizada!" });
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                Message = "Recarga realizada com sucesso!",
+                NewBalance = wallet.Funds
+            });
+        }
+
+        [HttpGet("GetWallet/{userId}")]
+        public async Task<IActionResult> GetBalance(int userId)
+        {
+            var wallet = await _context.Wallets.FirstOrDefaultAsync(w => w.UserId == userId);
+            if (wallet == null) return NotFound("Carteira não encontrada");
+
+            return Ok(wallet);
         }
 
     }
