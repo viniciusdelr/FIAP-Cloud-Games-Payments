@@ -119,30 +119,6 @@ builder.Services.AddDbContext<DataContext>(options =>
 
 builder.WebHost.UseUrls("http://0.0.0.0:80");
 
-//builder.Services.AddMassTransit(x =>
-//{
-//    // 1. Registra o consumidor
-//    x.AddConsumer<UserCreatedConsumer>();
-
-//    x.UsingAzureServiceBus((context, cfg) =>
-//    {
-//        cfg.Host(builder.Configuration.GetConnectionString("ServiceBusConnection"));
-
-//        cfg.ReceiveEndpoint("user-created-queue", e =>
-//        {
-//            e.ConfigureConsumer<UserCreatedConsumer>(context);
-//        });
-//    });
-//});
-
-//builder.Services.AddMassTransit(x => {
-//    x.AddConsumer<GamePurchasedConsumer>(); // O Payments ouve o pedido de compra
-//    x.UsingAzureServiceBus((context, cfg) => {
-//        cfg.Host(builder.Configuration.GetConnectionString("AzureServiceBus"));
-//        cfg.ConfigureEndpoints(context);
-//    });
-//});
-
 builder.Services.AddMassTransit(x =>
 {
     // 1. Registre TODOS os seus consumidores aqui em cima
@@ -154,12 +130,11 @@ builder.Services.AddMassTransit(x =>
         // Use apenas uma string de conexão (garanta que o nome no appsettings seja igual)
         cfg.Host(builder.Configuration.GetConnectionString("ServiceBusConnection"));
 
-        // 2. Configuração Automática (Recomendado)
-        // O ConfigureEndpoints cria as filas automaticamente para todos os consumers registrados acima
-        cfg.ConfigureEndpoints(context);
+        cfg.ReceiveEndpoint("buygame-queue", e =>
+        {
+            e.ConfigureConsumer<GamePurchasedConsumer>(context);
+        });
 
-        // 3. Configuração Manual (Opcional)
-        // Se você quiser dar um nome específico para a fila do usuário, pode manter isso:
         cfg.ReceiveEndpoint("user-created-queue", e =>
         {
             e.ConfigureConsumer<UserCreatedConsumer>(context);
